@@ -1,0 +1,107 @@
+.mainContainer{
+    margin: auto;
+    backdrop-filter: blur(100px);
+    overflow: hidden;
+}
+.container{
+    padding:200px  auto; 
+    background-color: #000;
+    height: 100VH;
+    text-align: center;
+    backdrop-filter: blur(100px);
+}
+.container h3{
+    color: #fff;
+    font-size: 30px;
+    
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 2.5rem;
+}
+.rightForm{
+    /* background-color: #fff; */
+}
+.rightForm div{
+    display: flex;
+    flex-direction: column;
+}
+.rightForm div label{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'roboto condensed','san serif';
+    margin-bottom: 2px;
+}
+.rightForm div input, .rightForm div select{
+    width: 18rem;
+    height: 2rem;
+    padding: 7px;
+    margin-bottom: 0.4rem;
+    border-radius: 0.3rem;
+    margin: auto;
+}
+.rightForm > button{
+    width: 19rem;
+    height: 2.5rem;
+    margin: 3rem 0rem;
+
+    border-radius: 2rem;
+    font-size: 15px;
+    font-weight: 400;
+    border: 0.1px solid #5B5B5B;
+    background-color: var(--secondary-color);
+}
+
+.rightForm > button:hover{
+cursor: pointer;
+}
+
+
+.dullOption{
+    color: #da09096b;
+}
+
+.Close{
+    position: absolute;
+    z-index: 10;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    &:hover{
+        cursor: pointer;
+    }   
+    color: red;
+    font-weight: 700;
+}
+.checkbox1{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.checkbox1 > input[type=checkbox]{
+    width: 14px;
+}
+
+.checkbox1 > p{
+    color: #fff;
+    width: 19rem;
+    font-size: 9px;
+}
+
+.coordinate{
+    width: 8rem;
+    margin:1rem auto;
+    
+}
+
+.coordinate button{
+    height: 1.8rem;
+    cursor: pointer;
+}
+
+.coordinate button img {
+    vertical-align: middle;
+    width: 15px;
+}

@@ -1,0 +1,15 @@
+:root{
+    --primary-color : rgba(31,31,31,100%);
+    --test : pink;
+    --logoRainbow: linear-gradient(to left,#FF75C3,#FFA647,#FFE83F,#9FFF5B,#70E2FF,#CD93FF);
+    --secondary-color: #7E76F7;
+    --dull-black : #5B5B5B
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
